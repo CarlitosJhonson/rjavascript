@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini projecto: Eventos en javascript</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <h1>🎯Mini proyecto: Aprender AddEventListener</h1>
+
+    <section>
+        <h2>1. Botón que cambia de texto</h2>
+        <button id="botonTexto">Haz clic aquí</button>
+        <p id="mensajeTexto">Esperando clic...</p>
+    </section>
+
+    <section>
+        <h2>2.Caja que cambia de color con el mouse</h2>
+        <div id="cajaColores" class="caja"></div>
+    </section>
+
+    <section>
+        <h2>3.Mostrar la tecla presionada</h2>
+        <input type="text" id="inputTecla" placeholder="Escribe algo">
+        <p id="teclaMostrada">Presione una tecla</p>
+    </section>
+
+    <section>
+        <h2>4.Contador de botones</h2>
+        <button id="btnSumar">➕Sumar</button>
+        <button id="btnRestar">➖Restar</button>
+        <p id="contador">0</p>
+    </section>
+
+    <section id="seccionDobleClick">
+        <h2>5.Doble click cambia color de fondo</h2>
+        <p>Doble click en esta sección cambia su color</p>
+    </section>
+
+    <section>
+        <h2>6.Validar formato de email</h2>
+        <input type="text" id="emailInput" placeholder="Escribe tu email">
+        <p id="mensajeEmail"></p>
+    </section>
+
+    <section>
+        <h2>7.Temporizador</h2>
+        <button id="iniciarTemporizador">Iniciar</button>
+        <p id="temporizador">0 segundos</p>
+    </section>
+
+    <section>
+        <h2>8.Desactivar botón y activar otro</h2>
+        <button id="btnDesactivar">Desactivar el otro</button>
+        <button id="btnDesactivado">Yo seré desactivado</button>
+        <button id="btnActivar">Activarme cuando desactiven</button>
+    </section>
+
+    <section>
+        <h2>9.Toggle: Mostrar/ocultar caja</h2>
+        <button id="toggleBtn">Mostrar / Ocultar Caja</button>
+        <div id="toggleCaja" class="caja" style="display: none;"></div>
+    </section>
+
+    <section>
+        <h2>10.Imagen con efecto hover</h2>
+        <img src="futuro.jpg" alt="Imagen" id="imagenHover" width="150">
+    </section>
+
+    <section>
+        <h2>11.detectar scroll de página</h2>
+        <p id="mensajeScroll" class="scrollMensaje" style="display: none;">📜 Estás haciendo scroll...</p>
+    </section>
+
+    <section>
+        <h2>12.Input con focus y blur</h2>
+        <input type="text" id="inputFocusBlur" placeholder="Enfócame y desenfócame">
+    </section>
+
+    <section>
+        <h2>13.Selección con select</h2>
+        <select id="selectColores">
+            <option value="">--Seleccionar un color--</option>
+            <option value="Rojo">Rojo</option>
+            <option value="Verde">Verde</option>
+            <option value="Azul">Azul</option>
+            <option value="Amarillo">Amarillo</option>
+        </select>
+        <p id="colorSeleccionado">Color seleccionado: ninguno</p>
+    </section>
+
+    <section>
+        <h2>14.Mostrar tamaño de ventana (resize)</h2>
+        <p id="tamañoVentana">Ancho x Alto: -- x --</p>
+    </section>
+
+    <section>
+        <h2>15.Validar formulario simple</h2>
+        <form id="formularioSimple">
+            <input type="text" id="nombreForm" placeholder="Nombre">
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="mensajeForm"></p>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
